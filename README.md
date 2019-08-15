@@ -40,6 +40,14 @@ class ViewController: UIViewController, XMLParserDelegate {
 }
 ```
 
+``` console
+2019-08-14 20:47:03.563614-0500 ParsingAnXML_Document[10589:616359] TIC TCP Conn Failed [1:0x6000001392c0]: 12:8 Err(-65554)
+2019-08-14 20:47:03.567233-0500 ParsingAnXML_Document[10589:616359] Task <9C0FEFF6-1528-4FE5-8EA7-F643A96578B9>.<0> HTTP load failed (error code: -1003 [12:8])
+2019-08-14 20:47:03.568837-0500 ParsingAnXML_Document[10589:616359] NSURLConnection finished with error - code -1003
+```
+
+
+# Fix the code.
 
 
 
